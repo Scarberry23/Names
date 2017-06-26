@@ -1,29 +1,8 @@
-def mynameis
-	print "My name is"
-end
+print "What is your first name?"
+    dname = gets
+    dname = dname.chomp
+    print "What is your last name?"
+    kname = gets
+    kname = kname.chomp
 
-def firstname 
-	print " Brandon "
-end
-
-def lastname
-	print " Scarberry. "
-end
-
-def whatisyourname
-	print " What is your name? "
-end
-
-def mynameis2
-	print " My name is Dustin Dunlap. "
-end
-
-
-
-
-
-mynameis
-firstname
-lastname
-whatisyourname
-mynameis2
+print "Hello #{dname} #{kname}, Thats a wonderful name."
