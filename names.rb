@@ -7,11 +7,15 @@ def firstname
 end
 
 def lastname
-	print " Scarberry "
+	print " Scarberry. "
 end
 
-def whatsyourname
-	print " My name is Dustin Dunlap "
+def whatisyourname
+	print " What is your name? "
+end
+
+def mynameis2
+	print " My name is Dustin Dunlap. "
 end
 
 
@@ -21,4 +25,5 @@ end
 mynameis
 firstname
 lastname
-whatsyourname
+whatisyourname
+mynameis2
